@@ -1,17 +1,29 @@
-# Geotab Development Assessment
+# README #
 
-As part of your application to Geotab Inc., we ask that you complete the following challenge. 
+# Random Joke Generator Application
 
-To submit the your challenge please follow the steps below:
-- Fork this Github Project to your own repo.
-- Choose one of the two available languages(Java or CSharp).
-- Create a Branch containing your changes and create a Pull Request.
+Random Joke Generator application takes inputs from user through the choices made while using the application.It will substitutes people name with Chuck Norris and gives random jokes based on user response.
 
-Please submit your completed challenge via a github link to your Pull Request to your own repo.
+##Overview of the Main Components
 
-Improve this software considering the following aspects;
-1. Usability & UX
-2. Future Maintenance & Extension
-3. Reliability & Quality 
+**API**:  Contains the class that establishes the connection to the endpoint ( Chuck Norris API and Name Generator API) and gets the response data.
 
-It's possible that there are existing bugs within this solution - make sure to fix those as well.
+**Service**: Contains the class that has business logic to generate random jokes based on user given input.
+
+**Model**:  Contains the class that store the incoming JSON data into Model object or Data Transfer Object.
+
+**Deserializer**: Contains the class to transform JSON data into given Model.
+
+**Http**: Contains the class to create HTTP client connection and HTTP request.
+
+**Exception**: Contains the class of custom Exception.
+
+**IO**: Contains the class to read user inputs and properties files and writes the output in console.
+
+**View**: Contains the class to interacts with user.
+
+**Test**: Contains the class to test various part of the application.
+
+**Main.java**: Entry point to the application.
+
+**Config.properties** : Contains configuration details for the application.
