@@ -1,4 +1,4 @@
-package com.jokecompany;
+package com.jokecompany.view;
 
 import com.jokecompany.service.IJokeGeneratorService;
 import com.jokecompany.service.JokeGeneratorService;

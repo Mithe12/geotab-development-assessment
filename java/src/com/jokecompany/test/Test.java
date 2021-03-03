@@ -1,4 +1,4 @@
-package com.jokecompany;
+package com.jokecompany.test;
 import com.jokecompany.api.IJokeGenerator;
 import com.jokecompany.api.INameGenerator;
 import com.jokecompany.api.JokeGenerator;

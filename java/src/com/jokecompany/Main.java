@@ -1,5 +1,7 @@
 package com.jokecompany;
 
+import com.jokecompany.view.JokeGeneratorClient;
+
 public class Main {
 
 /**

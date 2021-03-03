@@ -1,23 +1,29 @@
 # README #
 
-As part of your application to Geotab Inc., we ask that you complete the following challenge. 
+# Random Joke Generator Application
 
-### Task 1 - Fix some ugly code ###
+Random Joke Generator application takes inputs from user through the choices made while using the application.It will substitutes people name with Chuck Norris and gives random jokes based on user response.
 
-Imagine yourself working at Joke Company™. This company has an app that gets random Chuck Norris jokes and can substitute other peoples names into the joke instead of Chuck Norris'.
+##Overview of the Main Components
 
-Your task as a professional developer is to clean up this app and make it something you can be proud of.
+**API**:  Contains the class that establishes the connection to the endpoint ( Chuck Norris API and Name Generator API) and gets the response data.
 
-*Note: This is NOT a representation of our codebase to be clear. We did have fun crafting this beauty however ;)*
+**Service**: Contains the class that has business logic to generate random jokes based on user given input.
 
-### Task 2 - Write a report ###
+**Model**:  Contains the class that store the incoming JSON data into Model object or Data Transfer Object.
 
-Write a document explaining some of the improvements you made to the code, and why you did so.
+**Deserializer**: Contains the class to transform JSON data into given Model.
 
-### What do I need? ###
+**Http**: Contains the class to create HTTP client connection and HTTP request.
 
-* [Java](https://www.java.com) 
+**Exception**: Contains the class of custom Exception.
 
-### Who do I talk to? ###
+**IO**: Contains the class to read user inputs and properties files and writes the output in console.
 
-If you have any questions you can email careers@geotab.com
+**View**: Contains the class to interacts with user.
+
+**Test**: Contains the class to test various part of the application.
+
+**Main.java**: Entry point to the application.
+
+**Config.properties** : Contains configuration details for the application.
